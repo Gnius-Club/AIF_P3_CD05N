@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 5: Guardianes de la Armonía Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 5:Guardianes de la Armonía Digital</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Participar en foros/juegos con comentarios digitales con empatía, sin insultos ni burlas.</li>
+                                        <li>Fomentar la comunicación empática en línea.</li>
+                                        <li>Identificar insultos, burlas y exclusión digital.</li>
+                                        <li>Construir un entorno colaborativo positivo.</li>
+                                        <li>Aplicar normas de convivencia digital al interactuar en plataformas escolares.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Frases negativas transformadas en comentarios constructivos en el cuaderno ("Laboratorio de Ideas").</li>
+                                        <li>"I Can Statement" individual sobre el superpoder de las palabras.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuadernos y colores para los estudiantes.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para fomentar la conexión no verbal.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 2. Activación: Saludo Secreto en Parejas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Atención, Guardianes! 🛡️ Para sintonizar nuestra energía de equipo, vamos a crear un Saludo Secreto en Parejas. Tienen 30 segundos para inventar un saludo que represente la palabra 'EQUIPO'. ¡Puede ser un choque de codos, una figura con las manos, lo que sea! ¡Listos, fuera!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>En parejas, crean y practican su saludo. Algunas parejas lo muestran al grupo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Wow, qué saludos tan geniales! Veo choques de puños, figuras de cohetes... 🚀 ¡Esa conexión que sienten al hacer su saludo es la misma energía que necesitamos para crear espacios digitales increíbles! ¡Buen trabajo, equipo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 3. Recuerdo Relámpago: La Pregunta de las Múltiples Puertas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Guardianes! Antes de nuestra nueva misión, recordemos el secreto de la forja. La última vez creamos contraseñas legendarias, pero quedó una duda en el aire: Si ya forjamos una contraseña legendaria para nuestro juego favorito, ¿podemos usar esa misma llave maestra para TODAS nuestras puertas digitales? 🗝️</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Los estudiantes discuten la respuesta (¡No!). El maestro conecta esta idea con la diversidad de la comunicación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Escucho un 'NO' rotundo! ¡Correcto! Usar la misma llave en todos lados es peligroso. Y así como no usamos la misma llave para todo, tampoco usamos las mismas palabras para todo. Proteger nuestras cuentas es el primer paso, ¡proteger la buena vibra de nuestros espacios compartidos es el siguiente nivel de un Guardián!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora visual de construcción y cuidado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyectar Diapositiva 4. Objetivos de la Misión. (Imagen de un chat de juego donde algunos construyen puentes con palabras y otros lanzan "bombas" de texto que los rompen).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en GUARDIANES DE LA ARMONÍA DIGITAL. En cada chat, en cada foro, en cada juego, nuestras palabras son como bloques: podemos usarlos para construir puentes geniales 🌉 o para levantar muros. Hoy aprenderemos a ser los mejores constructores.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los estudiantes escriben o dibujan su "I Can Statement" y lo comparten.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Todo Guardián tiene un propósito. El mío es: 'Yo puedo convertir una crítica en una idea útil'. Ahora ustedes, en su bitácora de guardián, completen: 'Hoy mi superpoder será usar mis palabras para...'. ¡Compártanlo con su compañero! ¡A proteger la armonía! ✨</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar curiosidad con una historia sobre el impacto de las palabras en un entorno colaborativo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 5. Brain Boost: El Caso del Castillo de Arena Digital.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Les presento a Lucas y Sofía, están construyendo el castillo de arena más épico en 'BlockBuilders'. Sofía coloca la torre final, pero calcula mal y... ¡PUM! 💥 La torre se cae y rompe una parte del muro que Lucas había hecho.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 6. La Reacción. (Imagen de Lucas tecleando en el chat con cara de enojo: "¡QUÉ NOOB! ¡Arruinaste todo nuestro trabajo!").</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">El error de Sofía fue un accidente. Pero Lucas, frustrado, escribe en el chat: '¡QUÉ NOOB! ¡Arruinaste todo nuestro trabajo!'. Sofía lee el mensaje, se siente fatal y se desconecta del juego. Pregunta Provocadora: ¿Qué fue lo que realmente destruyó el castillo? ¿La torre que cayó... o las palabras que escribió Lucas? ¿Por qué?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conexión a la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! ¡Las palabras! Un muro se puede reconstruir, pero la confianza y las ganas de jugar juntos se dañan más fácilmente. Un verdadero Guardián de la Armonía sabe que un error es una oportunidad para ayudar, no para atacar. ¡Hoy vamos a practicar ese superpoder!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar la elección de respuestas empáticas en un entorno simulado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyectar Diapositiva 7. Gamer Express: Simulador de Armonía y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de entrar al Simulador de Armonía! En el Gamer Express, se encontrarán en diferentes situaciones de chat en un juego. Su misión: elegir la respuesta que construye, ayuda y une al equipo. ¡Conviértanse en los jugadores más valiosos (MVP) de la buena onda!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto creativo y práctico como una "misión de rescate" urgente.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 8. Challenge: ¡Emergencia en el Foro!</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente trabajo en el simulador! Ahora, una misión de código rojo 🔴. Ha ocurrido un colapso en la comunicación del foro escolar y necesitamos a nuestros mejores Guardianes para una misión de rescate. ¡Es hora de entrar al Laboratorio de Comentarios!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 9. La Escena del Caos. (Imagen de un foro escolar con comentarios enojados y avatares tristes).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Escuchen el reporte! En el foro para decidir la mascota del equipo de ciencias, el debate se salió de control. El equipo 'Dragones' y el equipo 'Cometas' empezaron a atacarse. Su misión es entrar a ese foro como agentes de paz, tomar los peores comentarios y transformarlos en oro puro. 🧪✨</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 5 minutos</h3>
+                            <p>Proyectar Diapositiva 10. Las Frases a Rescatar. En sus cuadernos ("Laboratorio de Ideas"), los equipos reescriben las frases proyectadas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Manos a la obra, científicos de la comunicación! Aquí están las 3 'muestras tóxicas' que causaron el caos. En su 'Laboratorio de Ideas', su cuaderno, reescriban cada una para que sea constructiva:<br> 1. (Dicho por un 'Cometa'): 'Tu dibujo del dragón está feo.' <br>2. (Dicho por un 'Dragón'): 'Esa idea del cometa es súper aburrida.'<br> 3. (Un comentario general): 'Los que votaron por los dragones juegan muy mal, mejor ni participen en el equipo.' <br>¡Transformen esos ataques en ayudas! ¡El futuro del equipo depende de ustedes!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 11. Galería de Transformaciones.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! Equipo 'Súper Conectores', ¡reporten su 'frase de rescate' para el comentario 1! 'Tu dibujo está feo.' ¿Cómo lo salvaron? ¡Wow, 'Me gustan los colores que usaste, ¿qué tal si pruebas añadirle más detalles en las alas?' es una idea de genios! ¡Convirtieron un ataque en una ayuda! Equipo 'Creadores de Puentes', ¡su turno con el caso 3!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 11. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han hecho magia en ese laboratorio! Son oficialmente Guardianes de la Armonía. Una última pregunta: ¿Qué dos cosas debemos usar siempre antes de teclear?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 12. El Hechizo del Guardián. El maestro escucha respuestas (cerebro, corazón, respeto) y presenta el "hechizo".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Cerebro y corazón! ¡Pensar y sentir! ¡Exacto! Para que nunca se nos olvide, nuestra nueva Clave Secreta no es una frase, es un Hechizo Digital de dos partes que todo guardián debe conocer:<br>✨ Pausa y Piensa (cerebro) 🧠... <br>✨ ¡Teclea y Conecta (corazón)! ❤️ ✨</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 13. Cierre de la sesión. Repiten el hechizo actuando y se lanza la pregunta de conexión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a lanzar el hechizo! ¡Actuando! Nos tocamos la cabeza y decimos: '¡Pausa y Piensa!' (Pausa). Luego, hacemos como que tecleamos y ponemos las manos en el corazón: '¡Teclea y Conecta!'. ¡Genial! Guarden este hechizo, porque nos deja un nuevo reto: Si ya sabemos ser amables, ¿qué hacemos cuando vemos que alguien más está siendo tratado injustamente en línea? 🤔 ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
